@@ -27,4 +27,5 @@ Example:
                 0004 0012 1 1671089813005882 -16.25 -68.0 4.957825906446392 0
                 0005 0003 4 1670723514096982 81.375 -71.0 5.749359992995383 20
                 0007 0014 3 1670723514027581 84.625 -72.5 0.760854470791278 21
-        ![image](https://user-images.githubusercontent.com/127716457/224981557-3dbdf98c-ae9e-47ea-992d-5ede149cf9f5.png)
+3.Types of activities
+![image](https://user-images.githubusercontent.com/127716457/224981779-396abe6f-b2cf-4abb-8fc2-9bfcaefbac40.png)
