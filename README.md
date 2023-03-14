@@ -1,16 +1,30 @@
 # CWNU-MRD
-The research team has collected the tag response feature data of twenty-one human activities with the largest number in the bound-RFID HAR so far, thus obtaining the human activity dataset CWNU-MRD based on the body RFID skeleton. The twenty-one human activities include the posturechanging activity and the postural-constant activity. There are seventeen kinds of posture-changing activities, such as "standing to crouching," "crouching to standing," "standing to stooping," "standing and stooping," and so on. Some of these activities are quite similar, such as "stride away with swinging arms" and "stride away without swinging arms." The posturalconstant activity includes "standing," "sitting," "crouching" and "lying." The dataset which reflects the polymorphism of human activity is beneficial to improve the generalization ability of HAR model.
+CWNU-MRD Dataset
+1.Data collection environment
 
+Devices：
 
-An example of data
+                Reader：Impinj R420
 
-     Each tag response record in the dataset includes the EPC, timestamp, Dopler Frequency, RSSI, Phase, and the activity number (label) used to identify the activity.
+                Antenna：Larid S9028PCR
+
+                Tag：Impinj M4E
+
+Ground：
+
+                3.5m (length) × 3.2m (width) × 4.5m (height)
+
+Volunteers:
+
+     This research team recruited fourteen volunteers with different conditions (age 18-24, height 155-182cm, weight 46-95kg, ratio of male to female 8:6). The volunteers complete twenty two human activities in multipath environment. Each activity was repeated about 40 times by each volunteer.
+2.An example of data
+
+     Each tag response record in the dataset includes the EPC(The first four digits are used as the identity of the person to be tested, and the last four digits are used as the attachment position of the tag), antenna number, timestamp, Dopler Frequency, RSSI, Phase, and the activity number (label) used to identify the activity.
 
 Example:
-                0010 1667632738934513 78.0625 -64.5 5.884350302329319 0
-                0009 1667633437037975 -15.375 -77.5 4.424000592262189 1
-                0008 1667634721907184 25.125 -74.5 1.9819031779482483 2
-                0004 1667635276410115 -0.75 -74.5 0.19634954084936207 3
-                0015 1667635970702292 -65.0625 -64.0 3.06182565261974 4
-                
-                
+                0001 0007 3 1670723513940281 -13.0 -69.0 3.0925052683774528 2
+                0003 0000 1 1670723513752416 -123.6875 -66.5 5.405748296509 5
+                0004 0012 1 1671089813005882 -16.25 -68.0 4.957825906446392 0
+                0005 0003 4 1670723514096982 81.375 -71.0 5.749359992995383 20
+                0007 0014 3 1670723514027581 84.625 -72.5 0.760854470791278 21
+        ![image](https://user-images.githubusercontent.com/127716457/224981557-3dbdf98c-ae9e-47ea-992d-5ede149cf9f5.png)
